@@ -38,6 +38,7 @@ header .main-wrapper {
     margin-right: 15px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    position: relative;
 }
 
 .main-menu>ul>li:last-child>a {
@@ -46,8 +47,19 @@ header .main-wrapper {
 
 .main-menu>ul>li>a::after{
     content: "";
-    width: 20px;
-    height: 5px;
-    background:red;
+    width: 10%;
+    height: 3px;
+    background: rgb(233, 18, 18);
     position: absolute;
+    left: 0;
+    top: 25px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+.main-menu>ul>li>a:hover::after{
+    width: 100%;
+    transition-duration: 0.3s;
+    opacity: 1;
 }
