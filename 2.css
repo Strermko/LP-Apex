@@ -8,9 +8,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.bt {
+    border: 1px solid red;
+}
+
 header {
     height: 65px;
     background: rgb(48, 43, 35);
+}
+
+header .main-wrapper>img {
+    height: 65px;
 }
 
 .main-wrapper {
@@ -45,7 +53,7 @@ header .main-wrapper {
     margin-right: 0px;
 }
 
-.main-menu>ul>li>a::after{
+.main-menu>ul>li>a::after {
     content: "";
     width: 10%;
     height: 3px;
@@ -58,8 +66,43 @@ header .main-wrapper {
     right: 0;
     opacity: 0;
 }
-.main-menu>ul>li>a:hover::after{
+
+.main-menu>ul>li>a:hover::after {
     width: 100%;
     transition-duration: 0.3s;
     opacity: 1;
+}
+
+.main-board {
+    height: 500px;
+    background: url(Asets/IMG/MainBackground.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.main-board::after {
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #e2ded60d;
+    position: absolute;
+}
+
+.main-board .main-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.main-board_left-block {
+    width: 50%;
+}
+
+.main-board .main-wrapper>img {
+    margin: auto;
+    width: 350px;
 }
