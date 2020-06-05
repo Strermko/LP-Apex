@@ -397,8 +397,10 @@ a.main-board_button-link {
     right: 0;
     background: #201f1e3b;
     position: absolute;
+    z-index: 0;
 }
 
 .tournaments-videos .main-wrapper{
+    position: relative;
     z-index: 2;
 }
