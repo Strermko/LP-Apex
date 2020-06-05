@@ -55,7 +55,12 @@ h2>span::after {
     position: absolute;
     margin-left: -21%;
 }
-
+.tournaments-videos h2>span{
+    color: white;
+}
+.tournaments-videos h2>span::after{
+    background: white;
+}
 h3 {
     font-size: 36px;
     font-weight: 600;
@@ -75,7 +80,7 @@ h3 {
 
 .tournaments-videos h3{
     margin-top: 2px;
-    color: rgb(88, 15, 10);
+    color: rgb(228, 219, 218);
 }
 .players, .tournaments-videos {
     padding: 60px;
@@ -364,7 +369,7 @@ a.main-board_button-link {
 }
 
 .tournaments-videos_container>p{
-    color: rgb(39, 39, 38);
+    color: rgb(243, 241, 241);
     font-weight: 550;
     font-size: 20px;
 }
@@ -377,7 +382,7 @@ a.main-board_button-link {
     padding-left: 22px;
     position: relative;
     margin-bottom: 15px;
-    color: maroon;
+    color: rgb(224, 220, 220);
     font-size: 20px;
 }
 
@@ -386,7 +391,7 @@ a.main-board_button-link {
     position: absolute;
     left: 0;
     font-family: fontawesome;
-    color: rgb(104, 70, 19);
+    color: rgb(218, 207, 192);
 }
 
 .tournaments-videos::after{
@@ -395,7 +400,7 @@ a.main-board_button-link {
     top: 0;
     bottom: 0;
     right: 0;
-    background: #201f1e3b;
+    background: #201f1e77;
     position: absolute;
     z-index: 0;
 }
