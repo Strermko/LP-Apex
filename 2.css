@@ -85,13 +85,14 @@ h3 {
     margin-top: 2px;
     color: rgb(228, 219, 218);
 }
-.soundtracks h3{
+
+.soundtracks h3 {
     color: rgb(124, 56, 11);
     text-align: center;
     font-size: 40px;
 }
 
-.players, .tournaments-videos, .soundtracks {
+.players, .tournaments-videos, {
     padding: 60px;
 }
 
@@ -102,7 +103,7 @@ header .main-wrapper>img {
 .main-wrapper {
     margin: 0 auto;
     width: 1170px;
-    padding: 15px;
+    padding: 0 15px;
 }
 
 .main-menu>ul>li {
@@ -360,6 +361,7 @@ a.main-board_button-link {
     background-color: rgb(99, 87, 69);
     border-radius: 5%;
     margin-top: 5%;
+    opacity: 0.8;
 }
 
 .tournaments-videos>.main-wrapper>div {
@@ -423,10 +425,23 @@ a.main-board_button-link {
 }
 
 .soundtracks {
-    background-color: rgba(211, 202, 190, 0.726);
+    background-color: rgba(211, 202, 190, 0.288);
     background-size: cover;
     height: 500px;
     position: relative;
+    overflow: hidden;
+}
+
+.soundtracks>video {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    z-index: -1;
+    padding: 0;
+}
+
+.soundtracks .main-wrapper {
+    padding: 60px;
 }
 
 .soundtracks>.main-wrapper>div {
@@ -445,24 +460,32 @@ a.main-board_button-link {
     color: rgb(180, 50, 50);
     padding-left: 10px;
     padding-bottom: 15px;
+    position: relative;
 }
 
-.soundtracks p{
-    color: #070606;
+.soundtracks p {
+    color: #d4bb29;
     font-size: 18px;
 }
 
-.soundtracks audio{
+.soundtracks audio {
     border-radius: 30%;
 }
-.soundtracks figure{
+
+.soundtracks figure {
     overflow: hidden;
-    box-shadow: 9px -12px 30px 3px rgba(240,240,240,1);
+    box-shadow: 9px -12px 30px 3px rgba(240, 240, 240, 1);
     background-color: rgba(88, 63, 51, 0.295);
     border-radius: 10px;
 }
-.soundtracks figcaption{
+
+.soundtracks figcaption {
     font-size: 20px;
     text-align: center;
     padding: auto;
+}
+
+/**/
+@media(max-width: 1100px){
+
 }
