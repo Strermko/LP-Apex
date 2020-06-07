@@ -240,6 +240,7 @@ a.main-board_button-link {
 .players {
     background-color: rgba(211, 202, 190, 0.726);
     background-size: cover;
+    height: 700px;
 }
 
 .players_block-item {
@@ -334,6 +335,7 @@ a.main-board_button-link {
     background: url(/Asets/IMG/Background-1.jpg) fixed;
     background-size: cover;
     position: relative;
+    height: 700px;
 }
 
 .tournaments-videos h2>span {
@@ -423,7 +425,7 @@ a.main-board_button-link {
 .soundtracks {
     background-color: rgba(211, 202, 190, 0.288);
     background-size: cover;
-    height: 500px;
+    height: 900px;
     position: relative;
     overflow: hidden;
 }
@@ -450,6 +452,7 @@ a.main-board_button-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10%;
 }
 
 .soundtracks_container {
