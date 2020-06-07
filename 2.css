@@ -255,7 +255,7 @@ a.main-board_button-link {
     text-align: center;
     transition-duration: 0.6s;
     border-radius: 8px;
-    height: 450px;
+    height: 70%;
 }
 
 .players_item>h3 {
@@ -295,12 +295,12 @@ a.main-board_button-link {
     padding-right: 10px;
 }
 
-.players_item>a {
+.players_item>button {
     display: inline-block;
     width: 120px;
     height: 45px;
     line-height: 40px;
-    color: rgb(124, 56, 11);
+    color: rgb(32, 18, 8);
     font-size: 18px;
     font-weight: 500;
     border-radius: 0 8px 0 8px;
@@ -323,11 +323,13 @@ a.main-board_button-link {
     color: rgb(150, 91, 36);
 }
 
-.players_item>a:hover {
+.players_item>button:hover {
     background-color: rgb(150, 91, 36);
     color: rgb(255, 251, 251);
 }
-
+#more, #more1, #more2{
+    display: none;
+}
 .tournaments-videos {
     background: url(/Asets/IMG/Background-1.jpg) fixed;
     background-size: cover;
