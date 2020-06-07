@@ -56,14 +56,6 @@ h2>span::after {
     margin-left: -21%;
 }
 
-.tournaments-videos h2>span {
-    color: white;
-}
-
-.tournaments-videos h2>span::after {
-    background: white;
-}
-
 h3 {
     font-size: 36px;
     font-weight: 600;
@@ -73,26 +65,7 @@ h3 {
     margin-inline-end: 0px;
 }
 
-.players_item>h3 {
-    margin-top: 23px;
-    margin-bottom: 10px;
-    color: rgba(82, 16, 16, 0.76);
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.tournaments-videos h3 {
-    margin-top: 2px;
-    color: rgb(228, 219, 218);
-}
-
-.soundtracks h3 {
-    color: rgb(124, 56, 11);
-    text-align: center;
-    font-size: 40px;
-}
-
-.players, .tournaments-videos, {
+.players, .tournaments-videos {
     padding: 60px;
 }
 
@@ -285,6 +258,14 @@ a.main-board_button-link {
     height: 450px;
 }
 
+.players_item>h3 {
+    margin-top: 23px;
+    margin-bottom: 10px;
+    color: rgba(82, 16, 16, 0.76);
+    text-align: center;
+    text-transform: capitalize;
+}
+
 .box-icon {
     border: 3px solid rgb(31, 6, 6);
     border-radius: 50%;
@@ -352,6 +333,19 @@ a.main-board_button-link {
     background: url(/Asets/IMG/Background-1.jpg) fixed;
     background-size: cover;
     position: relative;
+}
+
+.tournaments-videos h2>span {
+    color: white;
+}
+
+.tournaments-videos h2>span::after {
+    background: white;
+}
+
+.tournaments-videos h3 {
+    margin-top: 2px;
+    color: rgb(228, 219, 218);
 }
 
 .tournaments-videos>.main-wrapper>div>video {
@@ -432,6 +426,12 @@ a.main-board_button-link {
     overflow: hidden;
 }
 
+.soundtracks h3 {
+    color: rgb(124, 56, 11);
+    text-align: center;
+    font-size: 40px;
+}
+
 .soundtracks>video {
     position: absolute;
     width: 100%;
@@ -486,6 +486,5 @@ a.main-board_button-link {
 }
 
 /**/
-@media(max-width: 1100px){
 
-}
+@media(max-width: 1100px) {}
